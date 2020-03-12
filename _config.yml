@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: PathologicalHandwaving
 email: pathologicalhandwaving@gmail.com
-description:  # this means to ignore newlines until "baseurl:"
+description:  "I Make and Break so often its a service." # this means to ignore newlines until "baseurl:"
 
 twitter_username: pathhandwaving
 github_username: pathologicalhandwaving
@@ -59,32 +59,32 @@ plugins:
 author:
   name   : "EmD"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : ""
+  bio    : "Handy in an apocalypse or general afray."
   links:
-    - label: "Website"
+    - label: "Home"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://pathologicalhandwaving.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/pathhandwaving"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/pathologicalhandwaving"
+    #- label: "Instagram"
+      #icon: "fab fa-fw fa-instagram"
+      #url: "https://instagram.com/"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/pathhandwaving"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/pathologicalhandwaving"
+    #- label: "Instagram"
+      #icon: "fab fa-fw fa-instagram"
+      #url: "https://instagram.com/"
 
 defaults:
   # _posts
@@ -94,8 +94,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
       related: true
   # _pages
